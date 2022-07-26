@@ -11,7 +11,6 @@ int main() {
 	    cin>>n>>k>>m;
 	    cout<<ceil(n/(k*m))<<endl;
 	}
-	
 	return 0;
 }
 
