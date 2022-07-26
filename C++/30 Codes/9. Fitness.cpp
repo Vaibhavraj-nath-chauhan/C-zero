@@ -3,15 +3,13 @@ using namespace std;
 
 int main() {
 	// your code goes here
-	int t,x,y;
+	int t;
 	cin>>t;
+	int x;
 	while(t--){
-	    cin>>x>>y;
-	    if(x>=y){
-	        cout<<y<<endl;
-	    }else{
-	        cout<<x<<endl;
-	    }
+	    cin>>x;
+	    cout<<(x+x)*5<<endl;
 	}
 	return 0;
-}n
+}
+
